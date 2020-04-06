@@ -1,0 +1,7 @@
+<% @students.map do | student| %>
+    <%= student.first_name %>
+    <%= student.last_name %>
+    <%= student.created_at %>
+    <%= student.updated_at %>
+    <br>
+<% end %>
